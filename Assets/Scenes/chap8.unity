@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 105190502}
   - component: {fileID: 105190501}
   - component: {fileID: 105190500}
+  - component: {fileID: 105190504}
   m_Layer: 0
   m_Name: block_00_0 (3)
   m_TagString: Untagged
@@ -285,6 +286,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &105190504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105190499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9c86a439532a15449480f6ba26c23ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PingPongRidableFloor2
+  speed: 1
+  moveTime: 2
 --- !u!1 &598075355
 GameObject:
   m_ObjectHideFlags: 0
