@@ -17,5 +17,5 @@ public class GameCounter2 : MonoBehaviour
     }
 }
 public enum CounterType2 { // カウンターの種類
-    keys, Hearts, Miss, Score, Gold, ItemA, ItemB, ItemC
+    Keys, Hearts, Miss, Score, Gold, ItemA, ItemB, ItemC
 }
